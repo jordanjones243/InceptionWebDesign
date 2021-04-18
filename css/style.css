@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: green;
+    border: 2px solid;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+p {
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: Medium;
+}
+
+h2 {
+    margin-left: 6%;
+    margin-right: 6%;s
+}
