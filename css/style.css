@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2.main-title {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
@@ -15,14 +15,14 @@ hr {
     margin-right: 6%;
 }
 
-p {
+p, ul {
     margin-left: 6%;
     margin-right: 6%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: Medium;
 }
 
-h2 {
+h2.main-title, h2 {
     font-size: 60px;
     top: 50%;
     margin-left: 6%;
