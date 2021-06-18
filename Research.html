@@ -39,23 +39,34 @@
     </header>
     <div class="w-20 p-2" style="background-color:green;"></div>
     <p class="res-title">
-    <h2>Research on Machine Learning</h2>
-      <ul>
-        <li><strong>Machine Learning</strong>  – allows computers to learn without explicitly being programmed. </li>
+      <h2>Research on Machine Learning</h2>
         <ul>
-          <li>Where optimization minimizes loss on sample sets, ML minimizes loss on unseen samples </li>
+          <li><strong>Machine Learning</strong>  – allows computers to learn without explicitly being programmed. </li>
+          <ul>
+            <li>Where optimization minimizes loss on sample sets, ML minimizes loss on unseen samples </li>
+          </ul>
+          <li><strong>Image Classification</strong> – Task associated with multi-label assignments. It involves the extraction of information from an image and then associating the extracted information to one or more class lables </li>
+          <li><strong>Supervised Learning</strong>done in the context of classification, mapping input to output labels (ex: regression, classification) </li>
+          <ul>
+            <li>Goal is to find specific relationships or structure in the input data that allows us to effectovely produce correct output data </li>
+            <li>Main considerations: model complexity, bias-variance tradeoff </li>
+          </ul>
+          <li><strong>Unsupervised Learning</strong> – learn the inherent structure of our data without using explicitly-provided labels (ex: clustering) </li>
+          <ul><li>Common use-cases: exploratory analysis and dimensionality reduction </li></ul>
+          <li><strong>Reinforcement Learning</strong> - The computer is in a dynamic environment where it is rewarded for doing correct tasks and seeks to maximize rewards </li>
+          <li><strong>Generalization (In terms of ML) - Ability of a learning machine to perform accurately on new, unseen examples after experiencing a training data set </strong></li>
+          <ul><li>Because training sets are finite and future is uncertain, ML can only give a high probability of an outcome, not a guarantee </li></ul>
         </ul>
-        <li><strong>Image Classification</strong> – Task associated with multi-label assignments. It involves the extraction of information from an image and then associating the extracted information to one or more class lables </li>
-        <li><strong>Supervised Learning</strong>done in the context of classification, mapping input to output labels (ex: regression, classification) </li>
+
+        <h2>Research on InceptionV3</h2>
         <ul>
-          <li>Goal is to find specific relationships or structure in the input data that allows us to effectovely produce correct output data </li>
-          <li>Main considerations: model complexity, bias-variance tradeoff </li>
+          <li><strong>Factorized Convolutions:</strong> Reduce the computational efficiency as it reduces the number of parameters involved in a network. 
+            It also keeps a check on the network efficiency</li>
+          <li><strong>Smaller Convolutions:</strong> helps reduce the number of parameters through replacing large filters with multiple smaller ones.</li>
+          <ul><li>Example: A 5x5 filter is replaced with two 3x3 filters (18 parameters instead of 25).</li></ul>
+          <li><strong>Asymmetric Convolutions:</strong> A 3 × 3 convolution could be replaced by a 1 × 3 convolution followed by a 3 × 1 convolution. If a 3 × 3 convolution is replaced by a 2 × 2 convolution, the number of parameters would be slightly higher than the asymmetric convolution proposed.</li>
+          <li><strong>Auxilary Classifier:</strong> An auxiliary classifier is a small CNN inserted between layers during training, and the loss incurred is added to the main network loss. In GoogleNet auxiliary classifiers were used for a deeper network, whereas in Inception v3 an auxiliary classifier acts as a regularizer.</li>
+          <li><strong>Grid Size Reduction:</strong> </li>
         </ul>
-        <li><strong>Unsupervised Learning</strong> – learn the inherent structure of our data without using explicitly-provided labels (ex: clustering) </li>
-        <ul><li>Common use-cases: exploratory analysis and dimensionality reduction </li></ul>
-        <li><strong>Reinforcement Learning</strong> - The computer is in a dynamic environment where it is rewarded for doing correct tasks and seeks to maximize rewards </li>
-        <li><strong>Generalization (In terms of ML) - Ability of a learning machine to perform accurately on new, unseen examples after experiencing a training data set </strong></li>
-        <ul><li>Because training sets are finite and future is uncertain, ML can only give a high probability of an outcome, not a guarantee </li></ul>
-      </ul>
     </p>
 </body>
