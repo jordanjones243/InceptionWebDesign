@@ -19,7 +19,7 @@ p, ul {
     margin-left: 6%;
     margin-right: 6%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: Medium;
+    font-size: 20px;
 }
 
 h2.main-title, h2 {
@@ -27,11 +27,22 @@ h2.main-title, h2 {
     top: 50%;
     margin-left: 6%;
     margin-right: 6%;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
 }
 
 .top{
-    background-image: url('../img/1.jpeg');
+    background-image: url('../img/2.jpeg');
     background-size: cover;
     height: 30rem;  
     background-repeat: no-repeat;
+}
+
+.grey-top {
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 20rem; 
+    background-repeat: no-repeat; 
 }
